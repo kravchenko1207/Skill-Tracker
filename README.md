@@ -32,28 +32,27 @@
 ---
 
 ## How to Run
+Clone the repository or copy the source code into your project directory.
 
-1. Clone the repository or copy the source code into your project directory.  
-2. Compile the project using your terminal or preferred IDE.
+Compile the project using your terminal or preferred IDE.
 
-### Using the terminal
+Using the Terminal
+Command	Description
+javac com/skilltracker/*.java	Compile all Java files
+java com.skilltracker.Main	Run the main class
 
-```bash
-javac com/skilltracker/*.java
-java com.skilltracker.Main
-File Format: skills.txt
+File format: skills.txt
 Skills are stored in a CSV-like format:
-id,name,level,lastUpdated
 
+id,name,level,lastUpdated
 ## Example:
+
 1,Java,INTERMEDIATE,2025-05-20
 2,SQL,BEGINNER,2025-05-19
-Requirements
-Java 8 or higher
 
+## Requirements
+Java 8 or higher
 No external dependencies
 
-Author
+## Author
 Iryna Kravchenko
-
-
