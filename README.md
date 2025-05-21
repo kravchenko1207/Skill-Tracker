@@ -48,8 +48,8 @@ Using the Terminal
 ## id,name,level,lastUpdated
 
 ## Example
-1,Java,INTERMEDIATE,2025-05-20  
-2,SQL,BEGINNER,2025-05-19
+## 1,Java,INTERMEDIATE,2025-05-20  
+## 2,SQL,BEGINNER,2025-05-19
 
 ## Requirements
 Java 8 or higher
