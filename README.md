@@ -4,19 +4,20 @@
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 com/
 └── skilltracker/
-├── Main.java # Entry point of the application
-├── Skill.java # Model class representing a skill
-├── SkillManager.java # Business logic for managing skills
-└── SkillLevel.java # Enum representing skill proficiency levels
+    ├── Main.java          # Entry point of the application
+    ├── Skill.java         # Model class representing a skill
+    ├── SkillManager.java  # Business logic for managing skills
+    └── SkillLevel.java    # Enum representing skill proficiency levels
+
 
 
 ---
 
-## ✨ Features
+## Features
 
 - Add new skills with a name and proficiency level (Not Started, Beginner, Intermediate, Advanced)  
 - List all existing skills  
@@ -27,7 +28,7 @@ com/
 
 ---
 
-## 🛠 How to Run
+## How to Run
 
 1. Clone the repository or copy the source code into your project directory.  
 2. Compile the project using your terminal or preferred IDE.
@@ -37,19 +38,19 @@ com/
 ```bash
 javac com/skilltracker/*.java
 java com.skilltracker.Main
-📄 File Format: skills.txt
+File Format: skills.txt
 Skills are stored in a CSV-like format:
 id,name,level,lastUpdated
 
 Example:
 1,Java,INTERMEDIATE,2025-05-20
 2,SQL,BEGINNER,2025-05-19
-⚙️ Requirements
+Requirements
 Java 8 or higher
 
 No external dependencies
 
-👩‍💻 Author
+Author
 Iryna Kravchenko
 
 
