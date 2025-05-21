@@ -4,14 +4,17 @@
 
 ---
 
-##  Project Structure
+## Project Structure
 
-com/
-└── skilltracker/
-    ├── Main.java          # Entry point of the application
-    ├── Skill.java         # Model class representing a skill
-    ├── SkillManager.java  # Business logic for managing skills
-    └── SkillLevel.java    # Enum representing skill proficiency levels
+| File / Folder              | Description                                 |
+|---------------------------|---------------------------------------------|
+| `com/`                    | Root Java package                           |
+| └── `skilltracker/`       | Main application package                    |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── `Main.java`         | Entry point of the application           |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── `Skill.java`        | Model class representing a skill         |
+| &nbsp;&nbsp;&nbsp;&nbsp;├── `SkillManager.java` | Business logic for managing skills       |
+| &nbsp;&nbsp;&nbsp;&nbsp;└── `SkillLevel.java`   | Enum representing skill proficiency level|
+
 
 
 
