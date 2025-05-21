@@ -45,7 +45,7 @@ File Format: skills.txt
 Skills are stored in a CSV-like format:
 id,name,level,lastUpdated
 
-Example:
+## Example:
 1,Java,INTERMEDIATE,2025-05-20
 2,SQL,BEGINNER,2025-05-19
 Requirements
