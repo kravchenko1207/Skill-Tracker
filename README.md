@@ -43,9 +43,9 @@ Using the Terminal
 | `java com.skilltracker.Main`    | Run the main class     |
 
 ## File Format
-File: skills.txt
-Skills are stored in a CSV-like format:
-id,name,level,lastUpdated
+## File: skills.txt
+## Skills are stored in a CSV-like format:
+## id,name,level,lastUpdated
 
 ## Example
 1,Java,INTERMEDIATE,2025-05-20  
