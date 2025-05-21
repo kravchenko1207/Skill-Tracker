@@ -30,24 +30,25 @@
 - Load skills from a file on startup  
 
 ---
-
 ## How to Run
 Clone the repository or copy the source code into your project directory.
 
 Compile the project using your terminal or preferred IDE.
 
 Using the Terminal
-Command	Description
-javac com/skilltracker/*.java	Compile all Java files
-java com.skilltracker.Main	Run the main class
 
-File format: skills.txt
+| Command                         | Description            |
+| ------------------------------- | ---------------------- |
+| `javac com/skilltracker/*.java` | Compile all Java files |
+| `java com.skilltracker.Main`    | Run the main class     |
+
+## File Format
+File: skills.txt
 Skills are stored in a CSV-like format:
-
 id,name,level,lastUpdated
-## Example:
 
-1,Java,INTERMEDIATE,2025-05-20
+## Example
+1,Java,INTERMEDIATE,2025-05-20  
 2,SQL,BEGINNER,2025-05-19
 
 ## Requirements
